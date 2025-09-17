@@ -1,0 +1,26 @@
+# ImageToText Requirements
+# Install with: pip install -r requirements.txt
+
+# Core OCR engines
+pytesseract>=0.3.10
+easyocr>=1.7.0
+
+# Image processing
+Pillow>=10.0.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# PDF support
+PyMuPDF>=1.23.0
+
+# Additional utilities
+argparse>=1.4.0  # Usually included with Python
+pathlib>=1.0.1   # Usually included with Python
+
+# Optional: for better image preprocessing
+scikit-image>=0.21.0
+
+# Development dependencies (optional)
+# pytest>=7.0.0
+# black>=23.0.0
+# flake8>=6.0.0
